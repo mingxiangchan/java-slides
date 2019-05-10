@@ -82,3 +82,22 @@ for (int i = 0; i < x.length; i++) {
 Some Interesting Big Os
 
 [Click Here](https://cooervo.github.io/Algorithms-DataStructures-BigONotation/index.html)
+
+---
+
+### Binary Search
+
++++
+
+![](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/binary-and-linear-search-animations.gif)
+
++++
+
+### Steps
+
+1. sort the array
+2. find element at `midpoint_index`
+3. if `==` target, congrats! return `midpoint_indx`
+4. if `>` or `<` target:
+   - change `startIndex` and `endIndex`, recalulate midpoint
+   - repeat from step 3
